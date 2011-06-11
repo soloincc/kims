@@ -1,0 +1,11 @@
+TO DO
+1. find the validation code(js n php) for websites.
+2. find validation code of a phone number with a precceding +.
+3. perfect the validation script.
+4. finish the method for finding all the events of a particular date.
+5. think of a way of creating the family tree. the family tree should be incorporated with each users biography, such that other family members
+	appearing in ones biography provides a link to that persons biography. this should be also true for keywords eg kiamutirithia, milimani, langalanga-jogoo,
+	doonholm, naivasha fisherman camp, lake bogoria etc.
+6. pictures an videos, esp the old ones should give a short history of the picture. provide a placeholder for this.
+7. there should be a provision for a person to design and integrate his/her own webpage. this should either be custom made, from a template
+	which one uses or by designing a special page and uploading it to the server.

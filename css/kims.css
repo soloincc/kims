@@ -1,0 +1,549 @@
+html{
+	overflow: -moz-scrollbars-vertical;
+}
+
+body{
+
+}
+
+a{
+	color: #905700;
+	text-decoration: none;
+}
+
+label{
+	color: #905700;
+	font-weight: bold;
+	font-size: smaller;
+	padding: 0px 5px 0px 5px;
+}
+
+form{
+	padding: 0px;
+	margin: 0px;
+}
+a:hover{
+	color: #905700;
+	text-decoration: underline;
+}
+.error{
+	color: Red;
+	padding-left: 30px;
+}
+
+#header{
+	background-color: #FFDEAD;
+	height: 50px;
+	padding: 15px;
+	color: #6F4300;
+	text-align: right;
+	font: bold 35px "Bookman Old Style", "Calisto MT", "Century Schoolbook", "Comic Sans MS", "Copperplate Gothic Light";
+}
+
+#overall{
+	text-align: center;
+	border: 1px solid #905700;
+}
+
+#links{
+	color: #ffffff;
+	background-color: #754600;
+	font-weight: bolder;
+	padding: 2px;
+	text-align: center;
+	font: bold 13px "Bookman Old Style", "Calisto MT", "Century Schoolbook", "Comic Sans MS", "Copperplate Gothic Light";
+}
+
+#links a{
+	color: #ffffff;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#links a:hover{
+	color: #FFE4C4;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#inprogress{
+	text-align: center;
+	font: bold 14px "Bookman Old Style", "Calisto MT", "Century Schoolbook", "Comic Sans MS", "Copperplate Gothic Light";	
+	padding: 15px;
+}
+
+#content{
+	padding: 0px 10px 10px 10px;	
+	margin-top: 0px;
+	height: auto;
+}
+
+#content .sublinks{
+	margin: 5px;
+	padding: 0px;
+	text-align: center;
+}
+
+#content .sublinks a{
+	margin: 0px 5px 0px 5px;
+	font-size: 14px;
+}
+
+#content .sublinks span{
+	margin: 0px 5px 0px 5px;
+	font-size: 14px;
+	font-weight: bold;
+	/*text-decoration: underline;*/
+	color: #754600;
+}
+
+#sidelinks{
+	float: left;
+	width: 150px;
+	height: 200px;
+	margin: 5px 10px 0px;
+	border: 1px dotted #905700;
+}
+
+#sideinfo{
+	width: 130px;
+	height: auto;
+	border: 1px dotted #905700;
+	float: left;
+	margin-left: 15px;
+}
+
+#bone{
+	float: left;
+	width: 450px;
+}
+
+#event_content{
+	width: 290px;
+	float: left;
+}
+
+#similar_events{
+	width: 130px;
+	margin-left: 10px;
+	padding: 5px;
+	border: 1px dotted #905700;
+	float: left;
+	text-align: center;
+}
+
+#similar_events #other_events_caption{
+}
+
+#similar_events a{
+	text-decoration: underline;
+}
+
+#months{
+	margin: 0px 0px 5px 10px;
+	font-weight: bold;
+}
+
+#months a, #curmonth{
+	margin: 0px 3px 0px 3px;
+	padding: 0px 3px 0px 3px;
+}
+
+#curmonth{
+	color: #905700;
+	text-decoration: underline;
+}
+
+#months a:hover{
+	background-color: #905700;
+	color: #ffffff;
+	font-weight: bold;
+	margin: 0px 3px 0px 3px;	
+	text-decoration: none;
+}
+
+#calender{
+	border: 1px dotted #905700;
+	height: auto;
+	width: 585px;
+	float: left;
+	margin: 0px 5px 5px 5px 15px;
+}
+
+#calender div{
+	border: 1px dotted #905700;
+	margin: 3px;
+	height: 65px;
+	width: 65px;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+#calender .firstday{
+	border: 1px dotted #905700;	
+}
+
+#calender .day{
+}
+
+#calender .today{
+	text-decoration: underline;
+}
+
+#calender  .wknd{
+	color: Red;
+}
+
+#calender  .dayofwk{
+	border: 1px dotted #905700;
+	margin: 3px;
+	height: 20px;
+	float: left;	
+	text-align: center;
+	padding-bottom: 3px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#calender .eventday{
+	
+}
+
+#calender .eventday_today{
+	text-decoration: underline;
+}
+
+#calender .date{
+	border-bottom: 1px dotted #905700;
+	width: 65px;
+	height: 17px;
+	float: left;	
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+#calender .wknd_date{
+	border-bottom: 1px dotted #905700;
+	width: 65px;
+	height: 17px;
+	float: left;	
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;	
+	color: Red;
+}
+
+#calender .event{
+	height: 45px;
+	width: 65px;
+	float: left;	
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;	
+}
+
+#calender .event a{
+	color: blue;
+}
+
+#eventslist{
+	width: 400px;
+	margin: 10px;
+}
+
+#eventslist th{
+	color: #905700;
+	padding: 0px 15px 0px 15px;
+}
+
+#eventslist td{
+	color: #905700;
+	padding: 0px 15px 0px 15px;
+}
+
+#eventslist td a{
+	text-decoration: underline;
+}
+
+
+#eventslist .header{	
+	font-weight: bold;
+	text-align: center;
+	background-color: khaki;
+}
+
+#eventslist .odd{	
+	background-color: Cornsilk;
+}
+
+#eventslist td:hover{
+	background-color: #EEE8AA;
+}
+
+#eventslist .even{
+	background-color: #FFF5EE;
+}
+
+#events{
+	margin: 0px 0px 0px 160px;	
+	padding: 5px 5px 0px 5px;
+	width: 565px;
+	height: auto;
+	float: left;
+}
+#addevent{
+	margin: 10px 10px 10px 10px;	
+	padding: 5px 5px 0px 5px;
+	border: 1px dotted #905700;
+	width: 565px;
+	height: auto;
+	float: left;
+}
+
+#addevent div{
+	margin: 10px;
+}
+
+#addevent div label{
+	padding: 2px;
+}
+
+#addevent #eventday{
+	margin: 4px;		
+}
+
+#addevent #eventtype{
+}
+
+#addevent #eventcaption{
+	margin: 2px 0px 0px 20px;
+	padding: 5px 0px 0px 0px;
+}
+
+#addevent #links{
+	background: #ffffff;
+	margin: 2px;
+}
+
+#addevent #links a{
+	padding: 0px 10px 0px 0px;
+	margin: 0px;
+	text-decoration: underline;
+	color: #905700;
+	font: bold 12px "Bookman Old Style", "Calisto MT", "Century Schoolbook", "Comic Sans MS", "Copperplate Gothic Light";
+}
+
+#addevent #errmessageid{
+	text-align: center;
+	width: 550px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	font-size: medium;
+	float: left;
+}
+
+#addevent .normal{ color: #905700; }
+#addevent .error{color: red;}
+
+#contacts{
+	/*border: 1px dotted #905700;*/
+	border: none;
+	height: auto;
+	float: left;
+	margin: 0px 5px 5px 5px 15px;
+}
+
+#addevent #tabs{
+	margin: 5px 10px 0px 25px;
+	padding: 0px 130px 0px 40px;
+	width: 62%;
+	height: 24px;
+	border-bottom: 1px solid #905700;
+}
+
+#tabs div{
+	margin: 0px 5px 0px 0px;
+/*	width: 50px;*/
+	padding: 0px 5px 0px 5px;
+	float: left;
+	background-color: #FFDEAD;
+	text-align: center;
+	color: #905700;
+	/*border-bottom: 1px solid #905700;*/
+	cursor: pointer;
+}
+
+#tabs .selected{
+	background:#FFFFFF none repeat scroll 0%;
+	margin-bottom: -1px;
+	border: 1px solid #905700;
+	border-bottom: none;
+	border-width: 1px 1px 0px;
+}
+
+#tabs .highlight{
+	background-color: #EEE8AA;
+}
+
+#tabcontent{
+	margin: 2px;
+	float: none;
+}
+
+#tabcontent div{
+	margin: 0px;
+	float: none;
+}
+
+#tabcontent div label{
+	padding-left: 45px;
+}
+
+#tabcontent #known{
+	float: left;
+}
+
+#tabcontent #unknown{
+	padding-left: 5px;
+	margin-left: 15px;	
+	float: left;
+}
+
+#known label{
+	font-weight: normal;
+	padding: 0px;
+}
+
+#unknown label{
+	font-weight: normal;
+}
+
+#unknown .onemore{
+	padding-left: 150px;
+	font-size: smaller;
+}
+
+#unknown .onemore a{
+	color: blue;
+}
+
+#footer{
+	border-top: 2px solid #905700;
+	text-align: right;
+	padding-right: 25px;
+	margin-top: 5px;
+}
+
+#contacts{
+	text-align: center;	
+}
+
+#contacts table{
+}
+
+#contacts table .odd{
+	background-color: #FFEFD5;
+}
+
+#contacts table .even{
+	background-color: #F5DEB3;
+}
+
+#contacts th{
+	background-color: #DEB887;
+}
+
+#contacts td{
+	font-size: 13px;
+	text-align: center;
+}
+
+#contacts td #contact_card{
+	border: 1px dotted brown;
+	width: 145px; 
+	height: 95px;
+}
+
+#contacts td #contact_empty{
+	border: none;
+	width: 145px; 
+	height: 90px;
+}
+
+#contacts td #contact_card td{
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.footerlinks{
+	padding: 0px 10px 0px 0px;
+	text-decoration: underline;
+	color: #905700;
+	font: bold 12px "Bookman Old Style", "Calisto MT", "Century Schoolbook", "Comic Sans MS", "Copperplate Gothic Light";
+}
+
+.currentlink{
+	color: #FFE4C4;
+	padding: 5px;
+	text-decoration: none;	
+}
+
+#login{
+	float: right;
+	width: 250px;
+	height: auto;
+	border: 1px dotted #905700;
+	margin: 10px 25px 10px 0px;
+	padding-top: 10px;
+	font: 10pt "Bookman Old Style";
+	text-align: left;
+}
+
+#login div{
+	margin: 5px;
+}
+
+.en_button{
+	color: #cd853f;
+	background: #ffffff;
+	border: 1px solid 905700;
+	height: 25px;
+	margin-bottom: 1px;
+	font-family:"Courier New", Courier, monospace;
+	font-size:9pt;
+	font-weight: normal;
+}
+
+.en_button:hover{
+	color: #ffffff;
+	background: #905700;
+	border: 1px solid 905700;
+}
+
+.email{
+	color: Navy;
+	text-decoration: underline;
+	font: 11pt normal "Bookman Old Style", "Calisto MT", "Century Schoolbook", "Comic Sans MS", "Copperplate Gothic Light";
+}
+
+.year{
+	font-size: larger;
+	color: #905700;
+}
+
+.collapsed{
+  position: absolute;  /*position: static; can also be used*/
+  right: 9999px;
+}
+
+.expanded{
+	position: relative;
+}
+
+.error{
+	color: Red;
+}

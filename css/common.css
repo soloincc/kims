@@ -1,0 +1,8 @@
+.collapsed{
+  position: absolute;  /*position: static; can also be used*/
+  right: 9999px;
+}
+
+.expanded{
+	position: relative;
+}
